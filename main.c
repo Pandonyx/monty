@@ -1,16 +1,4 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include <ctype.h>
-#include <string.h>
-
-#define STACK_SIZE 100
-
-typedef struct
-{
-int data[STACK_SIZE];
-int top;
-}
-Stack;
+#include "monty.h"
 
 void initialize(Stack *stack)
 {
