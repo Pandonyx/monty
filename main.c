@@ -5,8 +5,8 @@
  */
 int main(void)
 {
-int stack[100];
-int line_number = 1;
+int stack[100] = {0};
+int line_number = 0;
 
 push(stack, line_number++, "1");
 push(stack, line_number++, "2");
