@@ -10,11 +10,7 @@
 #include <errno.h>
 #include <stdbool.h>
 
-#define STACK_SIZE 100
-
-typedef struct {
-    int data[STACK_SIZE];
-    int top;
-} Stack;
+void pall(int *stack, int line_number);
+int push(int *stack, int line_number, char *argument);
 
 #endif /*MONTY_H*/
