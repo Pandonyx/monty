@@ -1,8 +1,6 @@
 #include "monty.h"
 /**
  * main - Entry point for the Monty interpreter
- * @argc: Number of command-line arguments
- * @argv: Array of command-line arguments
  * Return: 0 on success
  */
 int main(void)
